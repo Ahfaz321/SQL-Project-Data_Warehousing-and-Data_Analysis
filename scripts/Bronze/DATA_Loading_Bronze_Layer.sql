@@ -140,7 +140,7 @@ BEGIN
 
 		--Select *from bronze.sales_details
 
-		--yo you can add more tables here
+		-- yo your error handling code goes here
 
 	END TRY
 	BEGIN CATCH
