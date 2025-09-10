@@ -138,6 +138,8 @@ BEGIN
 
 		--alter table bronze.erp_loc_a101 alter column cntry varchar(50)
 
+		--Select *from bronze.sales_details
+
 	END TRY
 	BEGIN CATCH
 		PRINT '=========================================='
@@ -150,3 +152,5 @@ BEGIN
 END
 
 exec Load_Bronze_Layer
+
+--my NAMES--
